@@ -1,12 +1,10 @@
 # BuyBusy E-Commerce Application
 
-hi im jayaprasad.im a full stack learner from coding ninjas.here is my proejct .
-
 BuyBusy is a web application designed for the customers of an e-commerce business. This project has been refactored to use Redux Toolkit for global state management, providing a centralized store for efficient state persistence.
 
 ## Hosted Link
 
-[Live Demo](#) <https://buy-busy-2-git-main-jayaprasad78s-projects.vercel.app/>
+[Live Demo]( <https://busybuy-2-a66d.onrender.com/>)
 
 ## Acceptance Criteria
 
@@ -36,4 +34,4 @@ Follow these steps to set up the project:
 1. **Clone the Repository:**
    ```bash
    git clone <repository-url>
-   cd buybusy-ecommerce
+   
