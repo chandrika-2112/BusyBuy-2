@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# BuyBusy E-Commerce Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+hi im jayaprasad.im a full stack learner from coding ninjas.here is my proejct .
 
-## Available Scripts
+BuyBusy is a web application designed for the customers of an e-commerce business. This project has been refactored to use Redux Toolkit for global state management, providing a centralized store for efficient state persistence.
 
-In the project directory, you can run:
+## Hosted Link
 
-### `npm start`
+[Live Demo](#) <https://buy-busy-2-git-main-jayaprasad78s-projects.vercel.app/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Acceptance Criteria
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Integrate Redux Toolkit for global state management.
+- Create reducers and actions for state mutation.
+- Implement a login page for existing users.
+- Develop asynchronous thunks for tasks like Login/Signup and Adding/Removing products in the cart.
+- Utilize `extraReducers()` to handle state updates based on asynchronous thunks, including Pending, Fulfilled, and Rejected actions.
+- Update components to leverage the Redux Toolkit state management system.
 
-### `npm test`
+## Additional Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To maximize the project score, the following features have been added:
 
-### `npm run build`
+- **Sidebar for Product Filtering:**
+  - Implemented a sidebar to filter products based on price and categories on the HomePage.
+  - Applied search and filter simultaneously for an enhanced user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Performance Optimization:**
+  - Utilized functions like `createSelector()` for memoized selectors, which cache the result of a calculation and only recompute it if the input data changes.
+  - Integrated `createEntityAdapter()` to create a normalized state structure for storing collections of entities, promoting better performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up the project:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd buybusy-ecommerce
